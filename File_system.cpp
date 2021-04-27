@@ -3,3 +3,7 @@
 //
 
 #include "File_system.h"
+
+const vector<Folder> &File_system::getVData() const {
+    return v_data;
+}
